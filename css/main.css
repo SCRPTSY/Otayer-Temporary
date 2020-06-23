@@ -1,0 +1,150 @@
+body {
+  font-family: Product Sans, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  width: 30%;
+  line-height: 20px;
+  font-size: 0.8rem;
+  color: #34333B;
+}
+
+/*---------------------------------*/
+
+
+
+
+
+/*---------------------------------*/
+
+.box-text {
+  position: relative;
+  left: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 65px;
+}
+
+
+/*iphone 6, 6s, 7 and 8*/
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+.box-text {
+  left: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  width: 68%;
+}
+
+
+
+/*iphone 6+, 7+ and 8+*/
+
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+
+  .box-text {
+    left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 90px;
+  }
+
+  p {
+    width: 76%;
+  }
+}
+
+
+/*iphone x*/
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+  .box-text {
+    left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 35px;
+  }
+}
+
+
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/*Ipad*/
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  p {
+    width: 50%;
+  }
+
+  .box-text {
+    left: 145px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    top: 155px;
+  }
+
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 1rem;
+  }
+
+  .box-text {
+    width: 500px;
+    left: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    top: 310px;
+  }
+
+}
