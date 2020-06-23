@@ -126,25 +126,3 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 }
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-  p {
-    width: 100%;
-    line-height: 25px;
-    font-size: 1rem;
-  }
-
-  .box-text {
-    width: 500px;
-    left: 220px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 50px;
-    top: 310px;
-  }
-
-}
